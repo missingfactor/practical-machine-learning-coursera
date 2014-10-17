@@ -14,7 +14,7 @@ cleanTrain <- trainBulk[,which(NAs == 0)]
 cleanTest <- testBulk[,which(NAs == 0)]
 
 ```
-
+ 
 ## Building data sets for training and cross validation. 
 ### Using 70% for training and 30% for Cross Validation. None generated for testing since that set is already provided.
 ```{r}
