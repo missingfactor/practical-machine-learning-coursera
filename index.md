@@ -14,7 +14,7 @@ library(caret)
 ## Loading required package: lattice
 ## Loading required package: ggplot2
 ```
-
+ 
 ```r
 testBulk <- read.csv("pml-testing.csv", na.strings = c("NA", ""))
 trainBulk <- read.csv("pml-training.csv", na.strings = c("NA", ""))
